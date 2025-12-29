@@ -5,3 +5,6 @@ collections:
   photos:
     output: true
     permalink: /photo/:path/
+
+baseurl: "/gops_results"
+url: "https://zackxiangyu.github.io"
