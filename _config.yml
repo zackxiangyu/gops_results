@@ -1,0 +1,7 @@
+title: GOPS Results
+remote_theme: pages-themes/minimal@v0.2.0 # 使用一个干净的默认主题
+
+collections:
+  photos:
+    output: true
+    permalink: /photo/:path/

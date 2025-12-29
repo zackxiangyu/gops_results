@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h1>展示列表</h1>
+<hr>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px;">
+  {% for photo in site.photos %}
+    <div style="border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+      <a href="{{ photo.url | relative_url }}">
+        <p>{{ photo.title }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
